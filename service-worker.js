@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Paint_Calculator/precache-manifest.e94709db8252294c1eb6b23705ad6887.js"
+  "/Paint_calculator/precache-manifest.b5b1c2e688a494a2a7c38f0fcbf1fe40.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Paint_Calculator/index.html", {
+workbox.routing.registerNavigationRoute("/Paint_calculator/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
