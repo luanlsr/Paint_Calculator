@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #090979;
+  background:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+:root{
+  /* Themes */
+  --primary: #2b6af3;
+  --primary-hover: #275ED7;
+  --secondary: #fff;
+  --secondary-hover: #275ED7;
+  --container: #f2f2f2;
+  --text-primary: #000;
+  --text-secondary: #333;
+
+
+   /* Colors */
+  --light: #fff;
+  --dark: #000;
+  --danger: #BB2D3B;
+  --success: #1F7346;
+  --warning: #FACA2D;
+}

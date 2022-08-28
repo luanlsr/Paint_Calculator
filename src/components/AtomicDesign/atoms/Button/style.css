@@ -1,0 +1,74 @@
+.continue-btn, .calc-btn,.start-btn {
+  background-color: var(--primary);
+  border: none;
+  margin: 2rem 0;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  color: var(--light);
+  width: 30rem;
+  min-height: 3rem;
+  transition: 0.3s ease all;
+  cursor: pointer;
+}
+
+.continue-btn:hover {
+  background-color: var(--primary-hover);
+}
+
+.calc-btn {
+  background-color: var(--success);
+}
+
+.calc-btn:hover {
+  filter: brightness(0.9);
+}
+
+
+.back-btn {
+  background-color: var(--secondary);
+  border: 0.5px solid var(--primary);
+  color: var(--text-primary);
+  margin: 2rem 0;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  width: 12rem;
+  height: 3rem;
+  transition: 0.3s ease all;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: var(--secondary-hover);
+  color: var(--light);
+}
+
+.calc-again-btn {
+  background-color: var(--primary);
+  border: none;
+  margin: 2rem 0;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  color: var(--light);
+  width: 16rem;
+  height: 3rem;
+  transition: 0.3s ease all;
+  cursor: pointer;
+}
+
+.calc-again-btn:hover {
+  background-color: var(--primary-hover);
+}
+
+@media only screen and (max-width: 700px) {
+  .start-btn, .continue-btn, .calc-btn {
+    width: 20rem;
+    margin: 0.5rem 0 2rem 0;
+  }
+}
+
+@media only screen and (max-width: 484px) {
+  .start-btn, .continue-btn, .calc-btn {
+    width: 18rem;
+    margin: 0.5rem 0 2rem 0;
+  }
+}
