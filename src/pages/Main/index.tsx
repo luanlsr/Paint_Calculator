@@ -1,3 +1,4 @@
+import React from 'react';
 import { Section } from '../../components/Section/intex';
 
 function MainPage() {

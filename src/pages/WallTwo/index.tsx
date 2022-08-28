@@ -1,3 +1,4 @@
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { WallFormTwo } from '../../components/AtomicDesign/molecules/WallFormTwo';
 import { Button } from '../../components/AtomicDesign/atoms/Button';

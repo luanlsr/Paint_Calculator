@@ -1,9 +1,9 @@
+import React, { useEffect, useState } from 'react';
 import { Button } from '../AtomicDesign/atoms/Button';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import './style.css';
 import { setColor } from '../../redux/slices/resultSlice';
-import { useEffect, useState } from 'react';
 
 export const Section = () => {
   const [colors, setColors] = useState('');

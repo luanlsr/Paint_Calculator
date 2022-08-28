@@ -1,3 +1,4 @@
+import React, { FormEvent, useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import {
   setWallThreeDoors,
@@ -5,7 +6,6 @@ import {
   setWallThreeWidth,
   setWallThreeWindows,
 } from '../../../../redux/slices/wallThreeSlice';
-import { FormEvent, useEffect, useState } from 'react';
 import { replaceClassName } from '../../../../utils/functions/functions';
 import { Input } from '../../atoms/Input';
 import './style.css';
